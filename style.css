@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+    color: gold;
+}
+h1{
+     color: #00a86b;
+     background-color: #de3163;
+}
+#show_sketch{
+    float: right;
+}
+#sketchName{
+    color: goldenrod;
+    background-color: black;
+}
+canvas{
+    border: 5px solid blue;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{
+        box-shadow: 1px 1px 38px orangered ;
+    }
+    to{
+        box-shadow: 1px 1px 38px lightseagreen;
+    }
+}
+p , span{
+    padding-top: 10px;
+    font-size: 25px;
+}
+#score{
+    font-size: 35px;
+    margin-left: 20px;
+}
+#time{
+    font-size: 35px;
+    margin-right: 20px;
+    float: right;
+}
